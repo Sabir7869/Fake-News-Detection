@@ -634,19 +634,9 @@ Tools:            Maven, npm, Git, VS Code, IntelliJ IDEA
 
 ---
 
-## 🔗 API Keys Required
+## 🔗 Configuration
 
-```properties
-# Backend application.properties
-google.factcheck.api.key=YOUR_FACT_CHECK_API_KEY
-google.customsearch.api.key=YOUR_CUSTOM_SEARCH_API_KEY
-google.customsearch.cx=YOUR_CUSTOM_SEARCH_ENGINE_ID
-google.gemini.api.key=YOUR_GEMINI_API_KEY
-spring.datasource.url=jdbc:postgresql://localhost:5432/fakenews
-spring.datasource.username=YOUR_DB_USERNAME
-spring.datasource.password=YOUR_DB_PASSWORD
-jwt.secret=YOUR_JWT_SECRET_KEY
-```
+This project requires environment variables for API keys and database credentials. See `.env.example` files in each project folder for required configuration.
 
 ---
 
